@@ -1,4 +1,4 @@
-# Trashnet Classifier
+# Trashnet Classifier using Fastai
 
 `trashnet-classifier.ipynb ` has trained model result.
 
