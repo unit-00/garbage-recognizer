@@ -1,15 +1,12 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Trashnet Classifier
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+`trashnet-classifier.ipynb ` has trained model result.
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
 
-You can test your changes locally by installing Docker and using the following command:
+Trashnet dataset trained on Resnet34/50 architecture using transfer learning.
 
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
+This model was able to achieve 90.2% accuracy with ResNet34 and 94.5% accuracy with ResNet50.
 
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+Data can be found at [Trashnet Repo](https://github.com/garythung/trashnet).
 
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+[App demonstration](https://garbage-recognizer.onrender.com)
